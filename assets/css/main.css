@@ -1,0 +1,35 @@
+
+/* Simple Dark Mode Theme */
+.dark-mode {
+  background-color: #121212 !important;
+  color: #f1f1f1 !important;
+}
+
+/* Make all text readable */
+.dark-mode * {
+  color: #f1f1f1 !important;
+  background-color: transparent !important;
+}
+
+/* Keep cards and navbar slightly darker */
+.dark-mode .card,
+.dark-mode .navbar,
+.dark-mode footer {
+  background-color: #1f1f1f !important;
+}
+
+/* Buttons visible in dark mode */
+.dark-mode .btn {
+  color: #fff !important;
+  border-color: #fff !important;
+}
+
+/* Input fields readable */
+.dark-mode input,
+.dark-mode textarea,
+.dark-mode select {
+  background-color: #222 !important;
+  color: #fff !important;
+  border: 1px solid #555 !important;
+}
+
